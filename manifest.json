@@ -1,0 +1,21 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/jquery.js", "js/trump.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "You know it, I know it, everyone knows it, the whole world knows it.",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "24": "img/icon24.png",
+      "32": "img/icon32.png",
+      "48": "img/icon48.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "6",
+   "name": "Make the Internet Great Again",
+   "permissions": [ "http://*/*", "https://*/*" ],
+   "version": "1.0"
+}
